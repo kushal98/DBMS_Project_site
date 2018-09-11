@@ -2,21 +2,51 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="stylenav.css">
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width , initial scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
-    <body>
-            <h1 class="text-center">LEGO WORLD</h1>
-        <div class="container text-center">
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
             
-            <p><em> LEGO comes from leg godt</em> </p>
-            <p>We have created a fictional band website</p>
-            <br>
+            <nav class="navbar navbar-default navbar-fixed-top">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span> 
+                        </button>
+                        <img src="logo.png" alt="logo">
+                        <a class="navbar-brand" href="#"></a>
+                      </div>
+                      <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                          <li><a href="#home">HOME</a></li>
+                          <li><a href="#band">BAND</a></li>
+                          <li><a href="#tour">TOUR</a></li>
+                          <li><a href="#contact">CONTACT</a></li>
+                          <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+                              <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">Merchandise</a></li>
+                              <li><a href="#">Extras</a></li>
+                              <li><a href="#">Media</a></li> 
+                            </ul>
+                          </li>
+                          <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                  
 
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -27,7 +57,7 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                   <div class="item active">
-                    <img src="clock.jpg" alt="New York" class="carousel-inner">
+                    <img src="legos.png" alt="New York">
                     <div class="carousel-caption">
                       <h3>LEGO CLOCK</h3>
                       <p>The clock made using lego blocks.</p>
@@ -35,7 +65,7 @@
                   </div>
               
                   <div class="item">
-                    <img src="DISPLAY.jpg" alt="Chicago" class="carousel-inner">
+                    <img src="lego.png" alt="Chicago" >
                     <div class="carousel-caption">
                       <h3>LEGO BUILDINGS</h3>
                       <p>The buildings made of LEGO.</p>
@@ -43,7 +73,7 @@
                   </div>
               
                   <div class="item">
-                    <img src="LEGOMaze.jpg" alt="Los Angeles" class="carousel-inner">
+                    <img src="LEGOMaze.jpg" alt="Los Angeles" >
                     <div class="carousel-caption">
                       <h3>LA</h3>
                       <p>Even though the traffic was a mess, we had the best time.</p>
@@ -61,8 +91,6 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
-        
-        </div>
 
         
     </body>

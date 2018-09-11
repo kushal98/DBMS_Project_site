@@ -21,7 +21,7 @@
 }
 
 .carousel-caption h3 {
-    color: #fff !important;
+    color: #fff;
 }
 
 @media (max-width: 600px) {
