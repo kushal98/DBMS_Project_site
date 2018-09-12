@@ -13,18 +13,3 @@
     border-color: #df7f31;
 }
 
-.carousel-inner img {
-    /* make all photos black and white */ 
-    width: 100%; /* Set width to 100% */
-    margin: auto;
-}
-
-.carousel-caption h3 {
-    color: rgb(236, 176, 63);
-}
-
-@media (max-width: 600px) {
-    .carousel-caption {
-        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-    }
-}
